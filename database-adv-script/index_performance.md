@@ -39,4 +39,4 @@ CREATE INDEX idx_properties_location ON properties(location);
 
 EXPLAIN ANALYZE
 SELECT * FROM Bookings
-WHERE user_id = '19188868'
+WHERE user_id = '19188817268'
