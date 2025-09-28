@@ -37,6 +37,6 @@ CREATE INDEX idx_bookings_booking_date ON bookings(booking_date);
 -- Index on properties.location for filtering queries
 CREATE INDEX idx_properties_location ON properties(location);
 
-EXPLAIN ANALYZE
+EXPLAIN
 SELECT * FROM Bookings
 WHERE user_id = '19188817268'
